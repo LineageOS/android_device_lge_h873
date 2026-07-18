@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/lge/h870d/h870d-vendor.mk)
+$(call inherit-product, vendor/lge/h873/h873-vendor.mk)
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
@@ -30,7 +30,7 @@ $(call inherit-product, device/lge/g6-common/g6.mk)
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sensors/sensor_def_lucye_global_com.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_variable.conf
+    $(LOCAL_PATH)/configs/sensors/sensor_def_lucye_global_ca.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_variable.conf
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
