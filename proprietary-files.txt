@@ -24,4 +24,3 @@ vendor/etc/firmware/fw_bcmdhd.bin:vendor/firmware/fw_bcmdhd.bin
 vendor/etc/firmware/fw_bcmdhd_apsta.bin:vendor/firmware/fw_bcmdhd_apsta.bin
 vendor/etc/firmware/fw_bcmdhd_mfg.bin:vendor/firmware/fw_bcmdhd_mfg.bin
 vendor/etc/wifi/4359_lg.clm_blob:vendor/etc/wifi/4359_lg.clm_blob
-vendor/etc/wifi/bcmdhd.cal:vendor/etc/wifi/bcmdhd.cal
